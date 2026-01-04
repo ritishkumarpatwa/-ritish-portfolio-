@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>My Portfolio</title>
+
+    <!-- Internal CSS -->
+    <style>
+        body {
+            margin: 0;
+            font-family: Arial, sans-serif;
+            background: #f4f4f4;
+        }
+
+        header {
+            background: #222;
+            color: white;
+            padding: 20px;
+            text-align: center;
+        }
+
+        nav a {
+            color: white;
+            margin: 0 15px;
+            text-decoration: none;
+            font-weight: bold;
+        }
+
+        section {
+            padding: 40px;
+            background: white;
+            margin: 20px;
+            border-radius: 8px;
+        }
+
+        h2 {
+            color: #333;
+        }
+
+        .skills span {
+            background: #007BFF;
+            color: white;
+            padding: 8px 12px;
+            margin: 5px;
+            display: inline-block;
+            border-radius: 5px;
+        }
+
+        .project {
+            border: 1px solid #ddd;
+            padding: 15px;
+            margin-top: 10px;
+            border-radius: 5px;
+        }
+
+        button {
+            background: #28a745;
+            color: white;
+            border: none;
+            padding: 10px 20px;
+            cursor: pointer;
+            border-radius: 5px;
+            font-size: 16px;
+        }
+
+        button:hover {
+            background: #218838;
+        }
+
+        footer {
+            background: #222;
+            color: white;
+            text-align: center;
+            padding: 10px;
+        }
+    </style>
+</head>
+
+<body>
+
+<header>
+    <h1>Ritish Srivastav</h1>
+    <p>Web Developer | CSE (AI) Student</p>
+    <nav>
+        <a href="#about">About</a>
+        <a href="#skills">Skills</a>
+        <a href="#projects">Projects</a>
+        <a href="#contact">Contact</a>
+    </nav>
+</header>
+
+<section id="about">
+    <h2>About Me</h2>
+    <p>
+        I am a Computer Science Engineering student specializing in Artificial Intelligence.
+        I love building websites and learning new technologies.
+    </p>
+</section>
+
+<section id="skills">
+    <h2>Skills</h2>
+    <div class="skills">
+        <span>HTML</span>
+        <span>CSS</span>
+        <span>JavaScript</span>
+        <span>C</span>
+        <span>Python</span>
+    </div>
+</section>
+
+<section id="projects">
+    <h2>Projects</h2>
+    <div class="project">
+        <h3>Portfolio Website</h3>
+        <p>Personal portfolio made using HTML, CSS, and JavaScript.</p>
+    </div>
+    <div class="project">
+        <h3>Student Management System</h3>
+        <p>A basic system to manage student records.</p>
+    </div>
+</section>
+
+<section id="contact">
+    <h2>Contact Me</h2>
+    <p>Email: ritish.kumar.patwa@rungta.org</p>
+    <p>Phone: +91 9229164299</p>
+    <button onclick="contactAlert()">Hire Me</button>
+</section>
+
+<footer>
+    <p>© 2026 Ritish Srivastav. All Rights Reserved.</p>
+</footer>
+
+<!-- Internal JavaScript -->
+<script>
+    function contactAlert() {
+        alert("Thank you for showing interest! I will contact you soon.");
+    }
+</script>
+
+</body>
+</html>
